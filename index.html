@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="estilos.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
     <title>Renove Soluções prediais</title>
 </head>
 <body>
@@ -20,54 +22,80 @@
      <main>
          <div id="banner">
             <div id="main-banner">
-                <h2 id="frase"> A RENOVE <small><p> Dá conta do trabalho</p></small></h2>
+                <h2 class="frase1"> A RENOVE </h2>
+                <small> <p class="frase2"> DÁ CONTA DO TRABALHO</p></small>
                 <img src="images/predio.png" id="predio">
                 <img src="images/curva.png" id="curva">
             </div>
          </div>
          <div id="corpo">
-            <Section id="visita">
-                <form action="#" method="post">
-                    <label> Seu nome <input type="text" name="nome"></label>
-                    <label> E-mail <input type="email" name="email"></label>
-                    <label> Telefone <input type="tel" name="tel"></label>
-                    <button type="submit"> Enviar </button> <button type="reset"> Cancelar </button>
-                </form>
+            <Section class="visita">
+                <h3> Solicite uma visita técnica</h3>
+                <div id="visita">
+                    <form action="#" method="post">
+                        <label > Seu nome <input type="text" name="nome"></label>
+                        <label> E-mail <input type="email" name="email"></label>
+                        <label> Telefone <input type="tel" name="tel"></label>
+                        <button type="submit"> ENVIAR </button> 
+                    </form>
+                </div>
+                
             </Section>
-            <section id="obras">
-                <artcile class="obra">
-                    <img src="images/reforma-predial2.png">
-                    <h3> Empreendimento Fantasitco</h3>
-                    <address>Rio de Janeiro - RJ </address>
-                    <a href="#" class="btn_vejamais">Veja mais</a>
-                </artcile>
-            <section id="obras">
-                <artcile class="obra">
-                    <img src="images/reforma-predial2.png">
-                    <h3> As melhores reformas</h3>
-                    <address>Rio de Janeiro - RJ </address>
-                    <a href="#" class="btn_vejamais">Veja mais</a>
-                </artcile>
-            </section>
+            <div class="port">
+                <h3> Obras já realizadas</h3>
+                <section id="obras">
+                    
+                    <artcile class="obra">
+                        <div class="imagem">
+                            <img src="images/reforma-predial2.png">
+                        </div>
+                        
+                        <div class="text">
+                            <h3> Obra de ipermeabilização do edificio andorinhas</h3>
+                            <address>Rio de Janeiro - RJ </address>
+                            <a href="#" class="btn_vejamais">Veja mais</a>
+                        </div>
+                    </artcile>
+                
+                    <artcile class="obra">
+                        <div class="imagem">
+                             <img src="images/reforma-predial2.png">
+                        </div>
+                       
+                        <div class="text">
+                            <h3> Obra do colégio futuro vip unidade irajá</h3>
+                            <address>Rio de Janeiro - RJ </address>
+                            <a href="#" class="btn_vejamais">Veja mais</a>
+                        </div>
+                        
+                    </artcile>
+                
+            </div>
+           
          </div>
      </main>
     
      <footer id="footer">
-        <div id="footer-texto"> Design para a proposta de Site <br> By Giselle Rosa </div>
-        <div id="footer-endereco">
-            <h4>Endereço</h4>
-            <address>
-                Rua da demostração, 999 <br>
-                Centro - Rio de Janeiro - RJ
-            </address>
-        </div>
-        <div id="footer-telefones">
-            <h4>Telefones</h4>
-            <p>
-                Fixo: 21 3124-3561
-                Celular: 21 97123-2234
-            </p>
-        </div>    
+        <div id="footer-texto">
+             Design para a proposta de Site <br>
+              By Bruno Marques </div>
+              <div>
+                <div id="footer-endereco">
+                    <h4>Endereço</h4>
+                    <address>
+                        Rua da demostração, 999 <br>
+                        Centro - Rio de Janeiro - RJ
+                    </address>
+                </div>
+                <div id="footer-telefones">
+                    <h4>Telefones</h4>
+                    <p>
+                        Fixo: 21 3124-3561
+                        Celular: 21 97123-2234
+                    </p>
+                </div>  
+              </div>
+          
      </footer>  
 </body>
 </html>

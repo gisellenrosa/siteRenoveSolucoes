@@ -1,22 +1,183 @@
 .clearfix::after, .clearfix::before{display:table; content: " ";}
 .clearfix::after{clear: both;}
 
-* {margin:0; padding:0; font-family: 'Lexend Deca', sans-serif; }
-body{background-color:#FDFDFD;}
+* {margin:0;
+     padding:0;
+     font-family: 'Raleway', sans-serif;
+     }
+body{
+    background-color:#FDFDFD;
+}
 
-#cabecalho, #main-principal, #corpo{ width: 60%; margin: 0 auto; background-color: #fff; color:#676767}
-#cabecalho{height: 150px; background-color: #fff; position: relative;}
-#logo{float:left; height:10px;  position: absolute; top:40px; left: 40px;}
-#menu-principal{float: right; background-color: fff; position: relative; top: 20px; right:40px; font-size: 0.6em;}
-#menu-principal a {font-family: 'Lexend Deca', sans-serif; text-decoration: none; letter-spacing: 2px; color:#676767}    
+#cabecalho, #main-principal, #corpo { 
+    width: 60%;
+    margin: 0 auto; 
+    background-color: #fff;
+    color:#676767
+}
+#cabecalho {height: 150px;
+     background-color: #fff;
+      position: relative;
+    }
+#logo {
+    float:left;
+    height:10px; 
+    position: absolute;
+    top:40px;
+    left: 40px;
+}
+#menu-principal{
+    float: right;
+    background-color: fff;
+    position: relative;
+    top: 20px; 
+    right:40px;
+    font-size: 0.6em;
+    font-weight: 700;
+    }
+#menu-principal a {
+    font-family:  'Raleway', sans-serif;
+    text-decoration: none;
+    letter-spacing: 2px; 
+    color:#676767;
+    }    
 
-#banner{height:300px; background:url("images/fundo.jpg"); background-size: cover; position:relative;}
-#frase{font-family: 'Lexend Deca', sans-serif; text-decoration: none; color:#FFF; text-shadow: 0px 0px 5px #45271d;}
-#predio{width:15%; position:absolute;  left: 50% ; top:20%;}
-#curva{backgroun-size:cover; width:50%; position: absolute;  left: 25%; top:91%; background-position:center right;}
-#corpo {padding: 100px;}
-#footer{ width: 60%; height:150px; margin: 0 auto; background-color: #676767; color:#FDFDFD; padding:15px;}
-#footer-texto {float:left; color:#FDFDFD;}
-#footer a {font-family: 'Lexend Deca', sans-serif; text-decoration: none; color:#FFF}
-#footer-telefones{float:right; width: 40%;}
-#footer-endereco{float:right; width: 10%;}
+#banner {
+    height:300px;
+    background:url("images/fundo.jpg"); 
+    background-size: cover;
+    position:relative;
+    }
+
+.frase1 {
+    font-size: 30px;
+    text-align: right;
+    margin-right: 600px;
+    padding-top: 120px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    color:#FFF; 
+    text-shadow: 0.1em 0.1em 0.1em #333;
+
+}
+
+.frase2  {
+    font-size: 18px;
+    text-align:left;
+    margin-left: 420px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+    text-decoration: none;
+    color:#FFF; 
+    text-shadow: 0.1em 0.1em 0.1em #333;
+    
+     }
+#predio {
+    width:auto;
+    max-width: 19%;
+  
+    margin-left: 650px;
+    margin-top:-175px;
+    }
+#curva {
+    
+    max-width:50%;
+    width: auto;
+    position: absolute;
+    left: 25%;
+    top:91%; 
+    background-position:center ;
+    }
+#corpo {
+    padding: 100px;
+    display: grid;
+    grid-template-columns:0.5fr 2fr;
+    gap: 50px;
+}
+#corpo h3{
+    font-weight: 500;
+}
+#visita {
+background-color: #f5f5f5;
+padding: 20px;
+margin-top:20px;
+font-weight: 500;
+
+}
+
+#visita input { 
+    margin:15px;
+    height: 20px;
+    width: 250px;
+    border:2px solid #efefef;
+}
+#visita button {
+    
+    background-color: #676767;
+    color:white;
+    border: none;
+    padding: 5px 20px ;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-left:105px;
+   
+}
+
+.obra   {
+    display:flex;
+    font-size: 12px;
+    margin-bottom: 10px;
+    
+}
+#obras img {
+    background-color: white;
+    padding: 10px;
+    height: 100px;
+    margin: 15px;
+}
+.text {
+margin: 20px;
+}
+.btn_vejamais {
+   
+    text-decoration: none;
+    background-color: #676767;
+    box-shadow: black;
+    margin-top: 10px;
+    color:white;
+    border: none;
+    padding: 5px 20px ;
+    margin-top:auto
+
+    
+}
+#footer {
+    font-size: 12px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 60%;
+    height:150px;
+    margin: 0 auto;
+    background-color: #676767;
+    color:#FDFDFD;
+    padding:15px;
+        }
+#footer-texto {
+   
+    color:#FDFDFD;
+    }
+#footer a {
+    
+    text-decoration: none;
+    color:#FFF;
+    }
+#footer-telefones {
+  
+    
+}
+#footer-endereco {
+    font-size: 12px;
+   
+    }
